@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* Design tokens for the app */
+:root {
+  --color-bg: #9d7447;
+  --color-surface: #ad8c66;
+  --color-surface2: #805831;
+
+  --color-border: #34343c;
+  --color-border2: #4a4a55;
+
+  --color-text: #000000;
+  --color-muted: #000000;
+
+  --color-accent: #936639;
+  --color-accent2: #fbcfe8;
+
+  --color-green: #4ade80;
+  --color-red: #fb7185;
+  --color-blue: #60a5fa;
+  --color-orange: #fb923c;
+
+  --font-sans: "Sora", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+}
+
+/* Optional: supply some fallback classes when custom utilities are needed */
+.bg-bg { background-color: var(--color-bg); }
+.bg-surface { background-color: var(--color-surface); }
+.bg-surface2 { background-color: var(--color-surface2); }
+.border-border { border-color: var(--color-border); }
+.border-border2 { border-color: var(--color-border2); }
+.text-text { color: var(--color-text); }
+.text-muted { color: var(--color-muted); }
+.text-accent { color: var(--color-accent); }
+.bg-accent { background-color: var(--color-accent); }
+.border-accent { border-color: var(--color-accent); }
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+
