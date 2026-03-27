@@ -2,9 +2,9 @@
 
 /* Design tokens for the app */
 :root {
-  --color-bg: #9d7447;
-  --color-surface: #ad8c66;
-  --color-surface2: #805831;
+  --color-bg: #f3e6ed;
+  --color-surface: #f3e6ed;
+  --color-surface2:#663266;
 
   --color-border: #34343c;
   --color-border2: #4a4a55;
@@ -12,7 +12,7 @@
   --color-text: #000000;
   --color-muted: #000000;
 
-  --color-accent: #936639;
+  --color-accent: #663266;
   --color-accent2: #fbcfe8;
 
   --color-green: #4ade80;
